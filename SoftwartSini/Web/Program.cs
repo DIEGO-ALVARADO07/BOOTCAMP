@@ -1,14 +1,14 @@
 using Business.Implement;
 using Business.Interfaz;
-using FluentValidation;
-using FluentValidation.AspNetCore;
+using Data.Implements.BaseData;
+using Data.Interfaz;
 using Entity.Context;
+using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using Web.ServiceExtension;
-using Microsoft.OpenApi.Models; 
-using Swashbuckle.AspNetCore.SwaggerUI;
-using Data.Interfaz;
-using Data.Implements.BaseData;
+using AutoMapper;
+using Microsoft.Extensions.DependencyInjection;
+using Entity.Mappers;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -32,7 +32,9 @@ builder.Services.AddScoped(typeof(IBaseData<>), typeof(BaseData<>));
 builder.Services.AddScoped(typeof(IBaseBusiness<,>), typeof(BaseBusiness<,>));
 // builder.Services.AddScoped<IPacienteData, PacienteData>();
 
+// AutoMapper
 
+builder.Services.AddAutoMapper(cfg => { },typeof(MapperProfile));
 
 // CORS
 var origenesPermitidos = builder.Configuration.GetValue<string>("origenesPermitidos")!.Split(";");
