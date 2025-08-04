@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Aprendiz\\Desktop\\Bootcamp\\SoftwartSini\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EBADE76A-C5BD-43E4-8BC9-BD240247CF58}|Entity\\Entity.csproj|c:\\users\\aprendiz\\desktop\\nueva carpeta (2)\\bootcamp\\softwartsini\\entity\\migrations\\20250804210007_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBADE76A-C5BD-43E4-8BC9-BD240247CF58}|Entity\\Entity.csproj|solutionrelative:entity\\migrations\\20250804210007_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,15 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250804210007_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Entity\\Migrations\\20250804210007_InitialMigration.cs",
+              "RelativeDocumentMoniker": "Entity\\Migrations\\20250804210007_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Entity\\Migrations\\20250804210007_InitialMigration.cs",
+              "RelativeToolTip": "Entity\\Migrations\\20250804210007_InitialMigration.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T21:00:07.155Z",
+              "EditorCaption": ""
             }
           ]
         }

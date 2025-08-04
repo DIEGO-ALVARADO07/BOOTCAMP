@@ -19,7 +19,6 @@
           <EntitySet Name="CardS" EntityType="Model.Card" />
           <EntitySet Name="RoundS" EntityType="Model.Round" />
           <EntitySet Name="ModeGameS" EntityType="Model.ModeGame" />
-          <EntitySet Name="ImageEmojiS" EntityType="Model.ImageEmoji" />
           <EntitySet Name="AvatarS" EntityType="Model.Avatar" />
           <AssociationSet Name="GameRound" Association="Model.GameRound">
             <End Role="Game" EntitySet="GameS" />
@@ -40,10 +39,6 @@
           <AssociationSet Name="ModeGameGame" Association="Model.ModeGameGame">
             <End Role="ModeGame" EntitySet="ModeGameS" />
             <End Role="Game" EntitySet="GameS" />
-          </AssociationSet>
-          <AssociationSet Name="GameImageEmoji" Association="Model.GameImageEmoji">
-            <End Role="Game" EntitySet="GameS" />
-            <End Role="ImageEmoji" EntitySet="ImageEmojiS" />
           </AssociationSet>
           <AssociationSet Name="GameUser" Association="Model.GameUser">
             <End Role="Game" EntitySet="GameS" />
@@ -71,7 +66,6 @@
           <NavigationProperty Name="Round" Relationship="Model.GameRound" FromRole="Game" ToRole="Round" />
           <NavigationProperty Name="Mazo" Relationship="Model.GameMazo" FromRole="Game" ToRole="Mazo" />
           <NavigationProperty Name="ModeGame" Relationship="Model.ModeGameGame" FromRole="Game" ToRole="ModeGame" />
-          <NavigationProperty Name="ImageEmoji" Relationship="Model.GameImageEmoji" FromRole="Game" ToRole="ImageEmoji" />
           <NavigationProperty Name="User" Relationship="Model.GameUser" FromRole="Game" ToRole="User" />
         </EntityType>
         <EntityType Name="Mazo">
@@ -116,15 +110,6 @@
           <Property Name="name" Type="String" Nullable="false" />
           <Property Name="description" Type="String" Nullable="false" />
           <NavigationProperty Name="Game" Relationship="Model.ModeGameGame" FromRole="ModeGame" ToRole="Game" />
-        </EntityType>
-        <EntityType Name="ImageEmoji">
-          <Key>
-            <PropertyRef Name="Id" />
-          </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <NavigationProperty Name="Game" Relationship="Model.GameImageEmoji" FromRole="ImageEmoji" ToRole="Game" />
-          <Property Name="GameId" Type="Int32" Nullable="false" />
-          <Property Name="img" Type="String" Nullable="false" />
         </EntityType>
         <EntityType Name="Avatar">
           <Key>
@@ -177,18 +162,6 @@
         <Association Name="ModeGameGame">
           <End Type="Model.ModeGame" Role="ModeGame" Multiplicity="1" />
           <End Type="Model.Game" Role="Game" Multiplicity="1" />
-        </Association>
-        <Association Name="GameImageEmoji">
-          <End Type="Model.Game" Role="Game" Multiplicity="1" />
-          <End Type="Model.ImageEmoji" Role="ImageEmoji" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="Game">
-              <PropertyRef Name="Id" />
-            </Principal>
-            <Dependent Role="ImageEmoji">
-              <PropertyRef Name="GameId" />
-            </Dependent>
-          </ReferentialConstraint>
         </Association>
         <Association Name="GameUser">
           <End Type="Model.Game" Role="Game" Multiplicity="1" />

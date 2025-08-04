@@ -8,6 +8,6 @@ namespace Entity.Model.Base
 {
     public class BaseModel
     {
-        public int Id;
+        public int Id { get; set; }
     }
 }

@@ -13,7 +13,6 @@ namespace Entity.Model.Game
         public string user { get; set; }
         public int IdDeparture { get; set; }
         public Departure Departure { get; set; }
-        public int IdAvatar { get; set; }
-        public Avatar Avatar { get; set; } 
+        public ICollection<Avatar> Avatar { get; set; } 
     }
 }

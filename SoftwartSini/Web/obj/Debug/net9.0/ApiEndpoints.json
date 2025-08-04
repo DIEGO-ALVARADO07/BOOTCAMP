@@ -1,0 +1,446 @@
+[
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.AvatarDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.Avatar, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Avatar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.AvatarDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.Avatar, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Avatar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.DTO.BaseDTO.AvatarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.AvatarDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.Avatar, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Avatar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.DTO.BaseDTO.AvatarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.AvatarDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.Avatar, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Avatar/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.AvatarDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.Avatar, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Avatar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.CardDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.Card, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Card",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.CardDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.Card, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Card",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.DTO.BaseDTO.CardDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.CardDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.Card, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Card",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.DTO.BaseDTO.CardDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.CardDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.Card, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Card/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.CardDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.Card, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Card/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.DepartureDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.Departure, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Departure",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.DepartureDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.Departure, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Departure",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.DTO.BaseDTO.DepartureDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.DepartureDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.Departure, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Departure",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.DTO.BaseDTO.DepartureDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.DepartureDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.Departure, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Departure/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.DepartureDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.Departure, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Departure/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.MazoDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.Mazo, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Mazo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.MazoDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.Mazo, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Mazo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.DTO.BaseDTO.MazoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.MazoDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.Mazo, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Mazo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.DTO.BaseDTO.MazoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.MazoDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.Mazo, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Mazo/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.MazoDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.Mazo, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Mazo/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.RoundDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.Round, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Round",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.RoundDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.Round, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Round",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.DTO.BaseDTO.RoundDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.RoundDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.Round, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Round",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.DTO.BaseDTO.RoundDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.RoundDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.Round, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Round/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.RoundDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.Round, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Round/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.UserDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.User, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.UserDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.User, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.DTO.BaseDTO.UserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.UserDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.User, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/User",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.DTO.BaseDTO.UserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.UserDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.User, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/User/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.BaseController\u00602[[Entity.DTO.BaseDTO.UserDTO, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Model.Game.User, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/User/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -11,14 +11,12 @@
         <EntityTypeShape EntityType="Model.Card" Width="1.5" PointX="6" PointY="5" />
         <EntityTypeShape EntityType="Model.Round" Width="1.5" PointX="3" PointY="4.125" />
         <EntityTypeShape EntityType="Model.ModeGame" Width="1.5" PointX="6" PointY="0.5" />
-        <EntityTypeShape EntityType="Model.ImageEmoji" Width="1.5" PointX="8.75" PointY="2.625" />
         <EntityTypeShape EntityType="Model.Avatar" Width="1.5" PointX="0.5" PointY="3.375" />
         <AssociationConnector Association="Model.GameRound" />
         <AssociationConnector Association="Model.GameMazo" />
         <AssociationConnector Association="Model.MazoCard" />
         <AssociationConnector Association="Model.UserAvatar" />
         <AssociationConnector Association="Model.ModeGameGame" />
-        <AssociationConnector Association="Model.GameImageEmoji" />
         <AssociationConnector Association="Model.GameUser" />
       </Diagram>
     </edmx:Diagrams>

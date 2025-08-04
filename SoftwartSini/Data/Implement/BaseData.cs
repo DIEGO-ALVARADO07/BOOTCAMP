@@ -20,7 +20,7 @@ namespace Data.Implements.BaseData
 
         public override async Task<T> GetByIdAsync(int id)
         {
-            return await _dbSet.FirstOrDefaultAsync(x => x.Id == id && x.Status);
+            return await _dbSet.FirstOrDefaultAsync(e => e.Id == id);
         }
 
         public override async Task<T> CreateAsync(T entity)
