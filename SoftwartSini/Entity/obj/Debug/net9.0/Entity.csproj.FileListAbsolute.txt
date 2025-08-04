@@ -1,0 +1,5 @@
+C:\Users\Aprendiz\Desktop\Bootcamp\SoftwartSini\Entity\obj\Debug\net9.0\Entity.csproj.AssemblyReference.cache
+C:\Users\Aprendiz\Desktop\Bootcamp\SoftwartSini\Entity\obj\Debug\net9.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aprendiz\Desktop\Bootcamp\SoftwartSini\Entity\obj\Debug\net9.0\Entity.AssemblyInfoInputs.cache
+C:\Users\Aprendiz\Desktop\Bootcamp\SoftwartSini\Entity\obj\Debug\net9.0\Entity.AssemblyInfo.cs
+C:\Users\Aprendiz\Desktop\Bootcamp\SoftwartSini\Entity\obj\Debug\net9.0\Entity.csproj.CoreCompileInputs.cache
