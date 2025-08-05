@@ -38,11 +38,12 @@ namespace Entity.Context
                 .Property(n => n.ModeGame)
                 .HasConversion<string>();
 
-            modelBuilder.Entity<User>()
-               .HasMany(d => d.Avatar)
-               .WithOne(c => c.User)
-               .HasForeignKey(d => d.IdUser)
-               .OnDelete(DeleteBehavior.Restrict);
+            modelBuilder.Entity<Avatar>()
+                .HasOne(p => p.User)
+                .WithOne(c => c.Avatar)
+                .HasForeignKey<User>(c => c.IdAvatar)
+                .OnDelete(DeleteBehavior.Restrict);
+
 
             modelBuilder.Entity<Departure>()
                 .HasMany(p => p.Users)

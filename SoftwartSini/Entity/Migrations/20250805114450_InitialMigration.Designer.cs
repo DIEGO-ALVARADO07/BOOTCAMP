@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Entity.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250805065316_InitialMigration")]
+    [Migration("20250805114450_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
@@ -32,16 +32,11 @@ namespace Entity.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("IdUser")
-                        .HasColumnType("int");
-
                     b.Property<string>("img")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("IdUser");
 
                     b.ToTable("Avatars");
                 });
@@ -163,6 +158,9 @@ namespace Entity.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("IdAvatar")
+                        .HasColumnType("int");
+
                     b.Property<int>("IdDeparture")
                         .HasColumnType("int");
 
@@ -172,20 +170,12 @@ namespace Entity.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("IdAvatar")
+                        .IsUnique();
+
                     b.HasIndex("IdDeparture");
 
                     b.ToTable("Users");
-                });
-
-            modelBuilder.Entity("Entity.Model.Game.Avatar", b =>
-                {
-                    b.HasOne("Entity.Model.Game.User", "User")
-                        .WithMany("Avatar")
-                        .HasForeignKey("IdUser")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Entity.Model.Game.Card", b =>
@@ -223,13 +213,27 @@ namespace Entity.Migrations
 
             modelBuilder.Entity("Entity.Model.Game.User", b =>
                 {
+                    b.HasOne("Entity.Model.Game.Avatar", "Avatar")
+                        .WithOne("User")
+                        .HasForeignKey("Entity.Model.Game.User", "IdAvatar")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
                     b.HasOne("Entity.Model.Game.Departure", "Departure")
                         .WithMany("Users")
                         .HasForeignKey("IdDeparture")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
+                    b.Navigation("Avatar");
+
                     b.Navigation("Departure");
+                });
+
+            modelBuilder.Entity("Entity.Model.Game.Avatar", b =>
+                {
+                    b.Navigation("User")
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Entity.Model.Game.Departure", b =>
@@ -244,11 +248,6 @@ namespace Entity.Migrations
             modelBuilder.Entity("Entity.Model.Game.Mazo", b =>
                 {
                     b.Navigation("Cards");
-                });
-
-            modelBuilder.Entity("Entity.Model.Game.User", b =>
-                {
-                    b.Navigation("Avatar");
                 });
 #pragma warning restore 612, 618
         }

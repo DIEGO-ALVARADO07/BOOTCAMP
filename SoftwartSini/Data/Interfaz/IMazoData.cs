@@ -9,5 +9,8 @@ namespace Data.Interfaz
 {
     public interface IMazoData : IBaseData<Mazo>
     {
+        Task<Mazo> GetMazoByUserId(int userId);
+        Task<Mazo> GetMazoWithCardsByUserId(int userIdTas, int gameId);
+);
     }
 }

@@ -6,7 +6,6 @@ namespace Entity.DTO.BaseDTO
     public class AvatarDTO : BaseDTO
     {
         public string img {  get; set; }
-        public int IdUser { get; set; }
 
     }
 }

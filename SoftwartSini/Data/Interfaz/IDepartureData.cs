@@ -9,5 +9,6 @@ namespace Data.Interfaz
 {
     public interface IDepartureData : IBaseData<Departure>
     {
+        
     }
 }

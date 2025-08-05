@@ -1,42 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Diego Alejandro\\Desktop\\Nueva carpeta\\BOOTCAMP\\SoftwartSini\\",
+  "WorkspaceRootPath": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F79E4A9D-8EF7-4E65-BC2E-E5D8B41A09F0}|Business\\Business.csproj|c:\\users\\diego alejandro\\desktop\\nueva carpeta\\bootcamp\\softwartsini\\business\\implement\\basebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A98F2616-9DE3-4B3D-BEA5-F7DAD9F56834}|ClassLibrary1\\Diagram.csproj|c:\\users\\aprendiz\\desktop\\nueva carpeta (2)\\bootcamp\\softwartsini\\classlibrary1\\model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{A98F2616-9DE3-4B3D-BEA5-F7DAD9F56834}|ClassLibrary1\\Diagram.csproj|solutionrelative:classlibrary1\\model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7760C6EF-7831-4A9D-BCFF-773B44A7C455}|Data\\Data.csproj|c:\\users\\aprendiz\\desktop\\nueva carpeta (2)\\bootcamp\\softwartsini\\data\\implement\\gamedata\\mazodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7760C6EF-7831-4A9D-BCFF-773B44A7C455}|Data\\Data.csproj|solutionrelative:data\\implement\\gamedata\\mazodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBADE76A-C5BD-43E4-8BC9-BD240247CF58}|Entity\\Entity.csproj|c:\\users\\aprendiz\\desktop\\nueva carpeta (2)\\bootcamp\\softwartsini\\entity\\model\\game\\mazo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBADE76A-C5BD-43E4-8BC9-BD240247CF58}|Entity\\Entity.csproj|solutionrelative:entity\\model\\game\\mazo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBADE76A-C5BD-43E4-8BC9-BD240247CF58}|Entity\\Entity.csproj|c:\\users\\aprendiz\\desktop\\nueva carpeta (2)\\bootcamp\\softwartsini\\entity\\model\\game\\departure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBADE76A-C5BD-43E4-8BC9-BD240247CF58}|Entity\\Entity.csproj|solutionrelative:entity\\model\\game\\departure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7760C6EF-7831-4A9D-BCFF-773B44A7C455}|Data\\Data.csproj|c:\\users\\aprendiz\\desktop\\nueva carpeta (2)\\bootcamp\\softwartsini\\data\\implement\\gamedata\\departuredata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7760C6EF-7831-4A9D-BCFF-773B44A7C455}|Data\\Data.csproj|solutionrelative:data\\implement\\gamedata\\departuredata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBADE76A-C5BD-43E4-8BC9-BD240247CF58}|Entity\\Entity.csproj|c:\\users\\aprendiz\\desktop\\nueva carpeta (2)\\bootcamp\\softwartsini\\entity\\model\\game\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBADE76A-C5BD-43E4-8BC9-BD240247CF58}|Entity\\Entity.csproj|solutionrelative:entity\\model\\game\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7760C6EF-7831-4A9D-BCFF-773B44A7C455}|Data\\Data.csproj|c:\\users\\aprendiz\\desktop\\nueva carpeta (2)\\bootcamp\\softwartsini\\data\\implement\\gamedata\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7760C6EF-7831-4A9D-BCFF-773B44A7C455}|Data\\Data.csproj|solutionrelative:data\\implement\\gamedata\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7760C6EF-7831-4A9D-BCFF-773B44A7C455}|Data\\Data.csproj|c:\\users\\aprendiz\\desktop\\nueva carpeta (2)\\bootcamp\\softwartsini\\data\\interfaz\\imazodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7760C6EF-7831-4A9D-BCFF-773B44A7C455}|Data\\Data.csproj|solutionrelative:data\\interfaz\\imazodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7760C6EF-7831-4A9D-BCFF-773B44A7C455}|Data\\Data.csproj|c:\\users\\aprendiz\\desktop\\nueva carpeta (2)\\bootcamp\\softwartsini\\data\\interfaz\\ideparturedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7760C6EF-7831-4A9D-BCFF-773B44A7C455}|Data\\Data.csproj|solutionrelative:data\\interfaz\\ideparturedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBADE76A-C5BD-43E4-8BC9-BD240247CF58}|Entity\\Entity.csproj|c:\\users\\aprendiz\\desktop\\nueva carpeta (2)\\bootcamp\\softwartsini\\entity\\model\\game\\avatar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBADE76A-C5BD-43E4-8BC9-BD240247CF58}|Entity\\Entity.csproj|solutionrelative:entity\\model\\game\\avatar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79E4A9D-8EF7-4E65-BC2E-E5D8B41A09F0}|Business\\Business.csproj|c:\\users\\aprendiz\\desktop\\nueva carpeta (2)\\bootcamp\\softwartsini\\business\\implement\\basebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F79E4A9D-8EF7-4E65-BC2E-E5D8B41A09F0}|Business\\Business.csproj|solutionrelative:business\\implement\\basebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F79E4A9D-8EF7-4E65-BC2E-E5D8B41A09F0}|Business\\Business.csproj|c:\\users\\diego alejandro\\desktop\\nueva carpeta\\bootcamp\\softwartsini\\business\\implement\\abasebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F79E4A9D-8EF7-4E65-BC2E-E5D8B41A09F0}|Business\\Business.csproj|c:\\users\\aprendiz\\desktop\\nueva carpeta (2)\\bootcamp\\softwartsini\\business\\implement\\abasebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F79E4A9D-8EF7-4E65-BC2E-E5D8B41A09F0}|Business\\Business.csproj|solutionrelative:business\\implement\\abasebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F79E4A9D-8EF7-4E65-BC2E-E5D8B41A09F0}|Business\\Business.csproj|c:\\users\\diego alejandro\\desktop\\nueva carpeta\\bootcamp\\softwartsini\\business\\interfaz\\ibasebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F79E4A9D-8EF7-4E65-BC2E-E5D8B41A09F0}|Business\\Business.csproj|c:\\users\\aprendiz\\desktop\\nueva carpeta (2)\\bootcamp\\softwartsini\\business\\interfaz\\ibasebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F79E4A9D-8EF7-4E65-BC2E-E5D8B41A09F0}|Business\\Business.csproj|solutionrelative:business\\interfaz\\ibasebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F79E4A9D-8EF7-4E65-BC2E-E5D8B41A09F0}|Business\\Business.csproj|c:\\users\\diego alejandro\\desktop\\nueva carpeta\\bootcamp\\softwartsini\\business\\implement\\gamebusiness\\userbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F79E4A9D-8EF7-4E65-BC2E-E5D8B41A09F0}|Business\\Business.csproj|c:\\users\\aprendiz\\desktop\\nueva carpeta (2)\\bootcamp\\softwartsini\\business\\implement\\gamebusiness\\userbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F79E4A9D-8EF7-4E65-BC2E-E5D8B41A09F0}|Business\\Business.csproj|solutionrelative:business\\implement\\gamebusiness\\userbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F79E4A9D-8EF7-4E65-BC2E-E5D8B41A09F0}|Business\\Business.csproj|c:\\users\\diego alejandro\\desktop\\nueva carpeta\\bootcamp\\softwartsini\\business\\implement\\gamebusiness\\roundbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F79E4A9D-8EF7-4E65-BC2E-E5D8B41A09F0}|Business\\Business.csproj|c:\\users\\aprendiz\\desktop\\nueva carpeta (2)\\bootcamp\\softwartsini\\business\\implement\\gamebusiness\\roundbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F79E4A9D-8EF7-4E65-BC2E-E5D8B41A09F0}|Business\\Business.csproj|solutionrelative:business\\implement\\gamebusiness\\roundbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F79E4A9D-8EF7-4E65-BC2E-E5D8B41A09F0}|Business\\Business.csproj|c:\\users\\diego alejandro\\desktop\\nueva carpeta\\bootcamp\\softwartsini\\business\\implement\\gamebusiness\\mazobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F79E4A9D-8EF7-4E65-BC2E-E5D8B41A09F0}|Business\\Business.csproj|c:\\users\\aprendiz\\desktop\\nueva carpeta (2)\\bootcamp\\softwartsini\\business\\implement\\gamebusiness\\mazobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F79E4A9D-8EF7-4E65-BC2E-E5D8B41A09F0}|Business\\Business.csproj|solutionrelative:business\\implement\\gamebusiness\\mazobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F79E4A9D-8EF7-4E65-BC2E-E5D8B41A09F0}|Business\\Business.csproj|c:\\users\\diego alejandro\\desktop\\nueva carpeta\\bootcamp\\softwartsini\\business\\implement\\gamebusiness\\cardbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F79E4A9D-8EF7-4E65-BC2E-E5D8B41A09F0}|Business\\Business.csproj|c:\\users\\aprendiz\\desktop\\nueva carpeta (2)\\bootcamp\\softwartsini\\business\\implement\\gamebusiness\\cardbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F79E4A9D-8EF7-4E65-BC2E-E5D8B41A09F0}|Business\\Business.csproj|solutionrelative:business\\implement\\gamebusiness\\cardbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F79E4A9D-8EF7-4E65-BC2E-E5D8B41A09F0}|Business\\Business.csproj|c:\\users\\diego alejandro\\desktop\\nueva carpeta\\bootcamp\\softwartsini\\business\\implement\\gamebusiness\\avatarbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F79E4A9D-8EF7-4E65-BC2E-E5D8B41A09F0}|Business\\Business.csproj|c:\\users\\aprendiz\\desktop\\nueva carpeta (2)\\bootcamp\\softwartsini\\business\\implement\\gamebusiness\\avatarbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F79E4A9D-8EF7-4E65-BC2E-E5D8B41A09F0}|Business\\Business.csproj|solutionrelative:business\\implement\\gamebusiness\\avatarbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7760C6EF-7831-4A9D-BCFF-773B44A7C455}|Data\\Data.csproj|c:\\users\\diego alejandro\\desktop\\nueva carpeta\\bootcamp\\softwartsini\\data\\implement\\gamedata\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7760C6EF-7831-4A9D-BCFF-773B44A7C455}|Data\\Data.csproj|solutionrelative:data\\implement\\gamedata\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,136 +82,233 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Model.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\ClassLibrary1\\Model.edmx",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Model.edmx",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\ClassLibrary1\\Model.edmx [Diagram1]",
+              "RelativeToolTip": "ClassLibrary1\\Model.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-08-05T15:19:01.015Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Mazo.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Entity\\Model\\Game\\Mazo.cs",
+              "RelativeDocumentMoniker": "Entity\\Model\\Game\\Mazo.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Entity\\Model\\Game\\Mazo.cs",
+              "RelativeToolTip": "Entity\\Model\\Game\\Mazo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T15:16:36.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepartureData.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Data\\Implement\\GameData\\DepartureData.cs",
+              "RelativeDocumentMoniker": "Data\\Implement\\GameData\\DepartureData.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Data\\Implement\\GameData\\DepartureData.cs",
+              "RelativeToolTip": "Data\\Implement\\GameData\\DepartureData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T15:16:11.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MazoData.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Data\\Implement\\GameData\\MazoData.cs",
+              "RelativeDocumentMoniker": "Data\\Implement\\GameData\\MazoData.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Data\\Implement\\GameData\\MazoData.cs",
+              "RelativeToolTip": "Data\\Implement\\GameData\\MazoData.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T15:02:24.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Departure.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Entity\\Model\\Game\\Departure.cs",
+              "RelativeDocumentMoniker": "Entity\\Model\\Game\\Departure.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Entity\\Model\\Game\\Departure.cs",
+              "RelativeToolTip": "Entity\\Model\\Game\\Departure.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T14:59:32.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IMazoData.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Data\\Interfaz\\IMazoData.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaz\\IMazoData.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Data\\Interfaz\\IMazoData.cs",
+              "RelativeToolTip": "Data\\Interfaz\\IMazoData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T14:55:58.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IDepartureData.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Data\\Interfaz\\IDepartureData.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaz\\IDepartureData.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Data\\Interfaz\\IDepartureData.cs",
+              "RelativeToolTip": "Data\\Interfaz\\IDepartureData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T11:57:01.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Entity\\Model\\Game\\User.cs",
+              "RelativeDocumentMoniker": "Entity\\Model\\Game\\User.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Entity\\Model\\Game\\User.cs",
+              "RelativeToolTip": "Entity\\Model\\Game\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T11:37:50.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Avatar.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Entity\\Model\\Game\\Avatar.cs",
+              "RelativeDocumentMoniker": "Entity\\Model\\Game\\Avatar.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Entity\\Model\\Game\\Avatar.cs",
+              "RelativeToolTip": "Entity\\Model\\Game\\Avatar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T11:35:25.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserData.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Data\\Implement\\GameData\\UserData.cs",
+              "RelativeDocumentMoniker": "Data\\Implement\\GameData\\UserData.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Data\\Implement\\GameData\\UserData.cs",
+              "RelativeToolTip": "Data\\Implement\\GameData\\UserData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T06:51:23.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "BaseBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Alejandro\\Desktop\\Nueva carpeta\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\BaseBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\BaseBusiness.cs",
               "RelativeDocumentMoniker": "Business\\Implement\\BaseBusiness.cs",
-              "ToolTip": "C:\\Users\\Diego Alejandro\\Desktop\\Nueva carpeta\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\BaseBusiness.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\BaseBusiness.cs",
               "RelativeToolTip": "Business\\Implement\\BaseBusiness.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-05T06:56:45.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "ABaseBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Alejandro\\Desktop\\Nueva carpeta\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\ABaseBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\ABaseBusiness.cs",
               "RelativeDocumentMoniker": "Business\\Implement\\ABaseBusiness.cs",
-              "ToolTip": "C:\\Users\\Diego Alejandro\\Desktop\\Nueva carpeta\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\ABaseBusiness.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\ABaseBusiness.cs",
               "RelativeToolTip": "Business\\Implement\\ABaseBusiness.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T06:56:43.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-05T06:56:43.465Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "IBaseBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Alejandro\\Desktop\\Nueva carpeta\\BOOTCAMP\\SoftwartSini\\Business\\Interfaz\\IBaseBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Business\\Interfaz\\IBaseBusiness.cs",
               "RelativeDocumentMoniker": "Business\\Interfaz\\IBaseBusiness.cs",
-              "ToolTip": "C:\\Users\\Diego Alejandro\\Desktop\\Nueva carpeta\\BOOTCAMP\\SoftwartSini\\Business\\Interfaz\\IBaseBusiness.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Business\\Interfaz\\IBaseBusiness.cs",
               "RelativeToolTip": "Business\\Interfaz\\IBaseBusiness.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T06:56:34.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-05T06:56:34.151Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "UserBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Alejandro\\Desktop\\Nueva carpeta\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\GameBusiness\\UserBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\GameBusiness\\UserBusiness.cs",
               "RelativeDocumentMoniker": "Business\\Implement\\GameBusiness\\UserBusiness.cs",
-              "ToolTip": "C:\\Users\\Diego Alejandro\\Desktop\\Nueva carpeta\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\GameBusiness\\UserBusiness.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\GameBusiness\\UserBusiness.cs",
               "RelativeToolTip": "Business\\Implement\\GameBusiness\\UserBusiness.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAASwBMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T06:52:01.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-05T06:52:01.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "RoundBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Alejandro\\Desktop\\Nueva carpeta\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\GameBusiness\\RoundBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\GameBusiness\\RoundBusiness.cs",
               "RelativeDocumentMoniker": "Business\\Implement\\GameBusiness\\RoundBusiness.cs",
-              "ToolTip": "C:\\Users\\Diego Alejandro\\Desktop\\Nueva carpeta\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\GameBusiness\\RoundBusiness.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\GameBusiness\\RoundBusiness.cs",
               "RelativeToolTip": "Business\\Implement\\GameBusiness\\RoundBusiness.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAASwBMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T06:51:59.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-05T06:51:59.668Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "MazoBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Alejandro\\Desktop\\Nueva carpeta\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\GameBusiness\\MazoBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\GameBusiness\\MazoBusiness.cs",
               "RelativeDocumentMoniker": "Business\\Implement\\GameBusiness\\MazoBusiness.cs",
-              "ToolTip": "C:\\Users\\Diego Alejandro\\Desktop\\Nueva carpeta\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\GameBusiness\\MazoBusiness.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\GameBusiness\\MazoBusiness.cs",
               "RelativeToolTip": "Business\\Implement\\GameBusiness\\MazoBusiness.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAASwBAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T06:51:57.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-05T06:51:57.008Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "CardBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Alejandro\\Desktop\\Nueva carpeta\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\GameBusiness\\CardBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\GameBusiness\\CardBusiness.cs",
               "RelativeDocumentMoniker": "Business\\Implement\\GameBusiness\\CardBusiness.cs",
-              "ToolTip": "C:\\Users\\Diego Alejandro\\Desktop\\Nueva carpeta\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\GameBusiness\\CardBusiness.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\GameBusiness\\CardBusiness.cs",
               "RelativeToolTip": "Business\\Implement\\GameBusiness\\CardBusiness.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAASwBAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T06:51:54.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-05T06:51:54.591Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "AvatarBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Alejandro\\Desktop\\Nueva carpeta\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\GameBusiness\\AvatarBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\GameBusiness\\AvatarBusiness.cs",
               "RelativeDocumentMoniker": "Business\\Implement\\GameBusiness\\AvatarBusiness.cs",
-              "ToolTip": "C:\\Users\\Diego Alejandro\\Desktop\\Nueva carpeta\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\GameBusiness\\AvatarBusiness.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\Nueva carpeta (2)\\BOOTCAMP\\SoftwartSini\\Business\\Implement\\GameBusiness\\AvatarBusiness.cs",
               "RelativeToolTip": "Business\\Implement\\GameBusiness\\AvatarBusiness.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T06:51:33.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserData.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Alejandro\\Desktop\\Nueva carpeta\\BOOTCAMP\\SoftwartSini\\Data\\Implement\\GameData\\UserData.cs",
-              "RelativeDocumentMoniker": "Data\\Implement\\GameData\\UserData.cs",
-              "ToolTip": "C:\\Users\\Diego Alejandro\\Desktop\\Nueva carpeta\\BOOTCAMP\\SoftwartSini\\Data\\Implement\\GameData\\UserData.cs",
-              "RelativeToolTip": "Data\\Implement\\GameData\\UserData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T06:51:23.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-05T06:51:33.344Z"
             }
           ]
         }
