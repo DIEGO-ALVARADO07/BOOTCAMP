@@ -14,8 +14,7 @@ namespace Data.Implements.BaseData
 
         public override async Task<List<T>> GetAll()
         {
-            return await _dbSet
-               .ToListAsync();
+            return await _dbSet.ToListAsync();
         }
 
         public override async Task<T> GetByIdAsync(int id)

@@ -5,3 +5,10 @@ C:\Users\Aprendiz\Desktop\Nueva carpeta (2)\BOOTCAMP\SoftwartSini\ClassLibrary1\
 C:\Users\Aprendiz\Desktop\Nueva carpeta (2)\BOOTCAMP\SoftwartSini\ClassLibrary1\obj\Debug\Diagram.csproj.CoreCompileInputs.cache
 C:\Users\Aprendiz\Desktop\Nueva carpeta (2)\BOOTCAMP\SoftwartSini\ClassLibrary1\obj\Debug\ClassLibrary1.dll
 C:\Users\Aprendiz\Desktop\Nueva carpeta (2)\BOOTCAMP\SoftwartSini\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\Diego Alejandro\Desktop\Nueva carpeta\BOOTCAMP\SoftwartSini\ClassLibrary1\bin\Debug\ClassLibrary1.dll.config
+C:\Users\Diego Alejandro\Desktop\Nueva carpeta\BOOTCAMP\SoftwartSini\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\Diego Alejandro\Desktop\Nueva carpeta\BOOTCAMP\SoftwartSini\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\Diego Alejandro\Desktop\Nueva carpeta\BOOTCAMP\SoftwartSini\ClassLibrary1\obj\Debug\Diagram.csproj.AssemblyReference.cache
+C:\Users\Diego Alejandro\Desktop\Nueva carpeta\BOOTCAMP\SoftwartSini\ClassLibrary1\obj\Debug\Diagram.csproj.CoreCompileInputs.cache
+C:\Users\Diego Alejandro\Desktop\Nueva carpeta\BOOTCAMP\SoftwartSini\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\Diego Alejandro\Desktop\Nueva carpeta\BOOTCAMP\SoftwartSini\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

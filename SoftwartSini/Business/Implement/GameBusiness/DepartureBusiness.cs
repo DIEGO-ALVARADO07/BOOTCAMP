@@ -15,16 +15,12 @@ namespace Business.Implement.GameBusiness
     public class DepartureBusiness : BaseBusiness<Departure, DepartureDTO>, IDepartureBusiness
     {
         private readonly IDepartureData _data;
-        private readonly IMapper _mapper;
-        private readonly ILogger _logger;
 
 
         public DepartureBusiness(IDepartureData data, IMapper mapper, ILogger<DepartureBusiness> logger) 
             : base(data, mapper, logger)
         {
             _data = data;
-            _mapper = mapper;
-            _logger = logger;
         }
 
     }

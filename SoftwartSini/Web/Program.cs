@@ -9,6 +9,8 @@ using Web.ServiceExtension;
 using AutoMapper;
 using Microsoft.Extensions.DependencyInjection;
 using Entity.Mappers;
+using Data.Implement.GameData;
+using Business.Implement.GameBusiness;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -30,7 +32,20 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 // Scoped services
 builder.Services.AddScoped(typeof(IBaseData<>), typeof(BaseData<>));
 builder.Services.AddScoped(typeof(IBaseBusiness<,>), typeof(BaseBusiness<,>));
-// builder.Services.AddScoped<IPacienteData, PacienteData>();
+builder.Services.AddScoped<IDepartureData, DepartureData>();
+builder.Services.AddScoped<IDepartureBusiness, DepartureBusiness>();//
+builder.Services.AddScoped<IRoundData, RoundData>();
+builder.Services.AddScoped<IRoundBusiness, RoundBusiness>();//
+builder.Services.AddScoped<IUserData, UserData>();
+builder.Services.AddScoped<IUserBusiness, UserBusiness>();//
+builder.Services.AddScoped<IAvatarData, AvatarData>();
+builder.Services.AddScoped<IAvatarBusiness, AvatarBusiness>();//
+builder.Services.AddScoped<ICardData, CardData>();
+builder.Services.AddScoped<ICardBusiness, CardBusiness>();//
+builder.Services.AddScoped<IMazoData, MazoData>();
+builder.Services.AddScoped<IMazoBusiness, MazoBusiness>();//
+
+
 
 // AutoMapper
 

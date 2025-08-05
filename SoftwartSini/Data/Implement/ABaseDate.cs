@@ -15,15 +15,10 @@ namespace Data.Implementations
         protected readonly ApplicationDbContext _context;
         protected readonly DbSet<T> _dbSet;
 
-        protected ABaseData(ApplicationDbContext context, DbSet<T> dbSet)
-        {
-            _context = context;
-            _dbSet = context.Set<T>();
-        }
-
         protected ABaseData(ApplicationDbContext context)
         {
             _context = context;
+            _dbSet = context.Set<T>();
         }
 
         public abstract Task<T> CreateAsync(T entity);

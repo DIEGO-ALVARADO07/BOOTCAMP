@@ -15,10 +15,10 @@ namespace Business.Implement
     {
         protected readonly IMapper _mapper;
         protected readonly IBaseData<T> _data;
-        protected readonly ILogger _logger;
+        protected readonly ILogger<BaseBusiness<T, D>> _logger;
 
 
-        public BaseBusiness(IBaseData<T> data, IMapper mapper, ILogger logger) : base()
+        public BaseBusiness(IBaseData<T> data, IMapper mapper, ILogger<BaseBusiness<T, D>> logger) : base()
         {
             _data = data;
             _mapper = mapper;

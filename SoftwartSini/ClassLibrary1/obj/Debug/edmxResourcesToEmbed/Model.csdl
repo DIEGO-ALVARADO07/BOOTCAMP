@@ -6,7 +6,6 @@
     <EntitySet Name="MazoS" EntityType="Model.Mazo" />
     <EntitySet Name="CardS" EntityType="Model.Card" />
     <EntitySet Name="RoundS" EntityType="Model.Round" />
-    <EntitySet Name="ModeGameS" EntityType="Model.ModeGame" />
     <EntitySet Name="AvatarS" EntityType="Model.Avatar" />
     <AssociationSet Name="GameRound" Association="Model.GameRound">
       <End Role="Game" EntitySet="GameS" />
@@ -23,10 +22,6 @@
     <AssociationSet Name="UserAvatar" Association="Model.UserAvatar">
       <End Role="User" EntitySet="UserS" />
       <End Role="Avatar" EntitySet="AvatarS" />
-    </AssociationSet>
-    <AssociationSet Name="ModeGameGame" Association="Model.ModeGameGame">
-      <End Role="ModeGame" EntitySet="ModeGameS" />
-      <End Role="Game" EntitySet="GameS" />
     </AssociationSet>
     <AssociationSet Name="GameUser" Association="Model.GameUser">
       <End Role="Game" EntitySet="GameS" />
@@ -53,8 +48,8 @@
     <Property Name="quantityRound" Type="String" Nullable="false" />
     <NavigationProperty Name="Round" Relationship="Model.GameRound" FromRole="Game" ToRole="Round" />
     <NavigationProperty Name="Mazo" Relationship="Model.GameMazo" FromRole="Game" ToRole="Mazo" />
-    <NavigationProperty Name="ModeGame" Relationship="Model.ModeGameGame" FromRole="Game" ToRole="ModeGame" />
     <NavigationProperty Name="User" Relationship="Model.GameUser" FromRole="Game" ToRole="User" />
+    <Property Name="modeGame" Type="String" Nullable="false" />
   </EntityType>
   <EntityType Name="Mazo">
     <Key>
@@ -89,15 +84,6 @@
     <Property Name="poitns" Type="String" Nullable="false" />
     <NavigationProperty Name="Game" Relationship="Model.GameRound" FromRole="Round" ToRole="Game" />
     <Property Name="GameId" Type="Int32" Nullable="false" />
-  </EntityType>
-  <EntityType Name="ModeGame">
-    <Key>
-      <PropertyRef Name="Id" />
-    </Key>
-    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="name" Type="String" Nullable="false" />
-    <Property Name="description" Type="String" Nullable="false" />
-    <NavigationProperty Name="Game" Relationship="Model.ModeGameGame" FromRole="ModeGame" ToRole="Game" />
   </EntityType>
   <EntityType Name="Avatar">
     <Key>
@@ -146,10 +132,6 @@
   <Association Name="UserAvatar">
     <End Type="Model.User" Role="User" Multiplicity="1" />
     <End Type="Model.Avatar" Role="Avatar" Multiplicity="1" />
-  </Association>
-  <Association Name="ModeGameGame">
-    <End Type="Model.ModeGame" Role="ModeGame" Multiplicity="1" />
-    <End Type="Model.Game" Role="Game" Multiplicity="1" />
   </Association>
   <Association Name="GameUser">
     <End Type="Model.Game" Role="Game" Multiplicity="1" />
